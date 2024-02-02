@@ -41,7 +41,7 @@ header{
     max-width: 1180px;
     justify-content: space-between;
     background-color: #daa520;
-    margin: 0 25%;
+    margin: auto;
 }
 
 .header-container .header-items{
@@ -56,4 +56,25 @@ header{
 .header-items.center{
     min-width: 60%;
 }
+
+/* hero */
+
+#hero{
+    display: flex;
+    flex-direction: row;
+    background-color: #00008b;
+    padding: 2% 0;
+}
+
+#hero div{
+    background-color: #ee82ee;
+    min-width: 900px;
+    min-height: 400px;
+    margin: auto;
+}
+
+/*--------------------
+      SECTIONS
+--------------------*/
+
 
