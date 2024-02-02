@@ -115,3 +115,38 @@ section{
     min-height: 1000px;
     margin: auto;
 }
+
+/*--------------------
+        FOOTER
+--------------------*/
+
+footer{
+    background-color: #23272a;
+    padding: 1.5%;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    min-height: 800px;
+    max-width: 1480px;
+}
+
+.box-1{
+    width: 30%;
+    background-color: #f08080;
+}
+
+.box-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.box-2 div{
+    background-color: #20b2aa;
+    width: calc(100% / 4);
+}
