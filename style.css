@@ -122,7 +122,7 @@ section{
 
 footer{
     background-color: #23272a;
-    padding: 1.5%;
+    padding: 0.5% 1.5% 1.5% 1.5%;
 }
 
 .footer-container{
@@ -150,3 +150,29 @@ footer{
     background-color: #20b2aa;
     width: calc(100% / 4);
 }
+
+#pie-pagina{
+    background-color: #23272a;
+    padding: 1.5% 0 0 0;
+    margin-top: 2px;
+    min-height: 100px;
+}
+
+#pie-pagina > div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    max-width: 1480px;
+    min-height: 70px;
+    margin: auto;
+}
+
+button{
+    height: 30px;
+    padding: 5px 15px;
+}
+
+
