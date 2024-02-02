@@ -38,7 +38,7 @@ header{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 1180px;
+    max-width: 1480px;
     justify-content: space-between;
     background-color: #daa520;
     margin: auto;
@@ -68,7 +68,7 @@ header{
 
 #hero div{
     background-color: #ee82ee;
-    min-width: 900px;
+    min-width: 1000px;
     min-height: 400px;
     margin: auto;
 }
@@ -80,15 +80,19 @@ header{
 section{
     padding: 1.5%;
 }
+
 .section-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 1180px;
-    min-height: 500px;
+    max-width: 1480px;
+    min-height: 600px;
     margin: auto;
 }
 
+.second-section{
+    flex-direction: row-reverse;
+}
 
 .section-container .w-65{
     width: 65%;
@@ -99,3 +103,4 @@ section{
     width: 35%;
     background-color: #ffc0cb;
 }
+
