@@ -104,3 +104,14 @@ section{
     background-color: #ffc0cb;
 }
 
+.last-section{
+    background-color: #d3d3d3;
+    padding: 1.5%;
+}
+
+.last-section > div{
+    background-color: #228b22;
+    max-width: 1480px;
+    min-height: 1000px;
+    margin: auto;
+}
