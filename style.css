@@ -77,4 +77,25 @@ header{
       SECTIONS
 --------------------*/
 
+section{
+    padding: 1.5%;
+}
+.section-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1180px;
+    min-height: 500px;
+    margin: auto;
+}
 
+
+.section-container .w-65{
+    width: 65%;
+    background-color: #1e90ff;
+}
+
+.section-container .w-35{
+    width: 35%;
+    background-color: #ffc0cb;
+}
